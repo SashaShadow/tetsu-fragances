@@ -1,0 +1,18 @@
+
+    <% if (user) { %>
+        <div class="Welcome">
+            <a href="/shop/" class="Logo"><img src="https://www.logomaker.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfN27LD6Qw52k+ahmA4P3NfqQ1hhnx00v9i9Pk...LBUC6FkdxkpWM4NohSV9V4YXjxpg...T2baNUcBTcjkW9HWug="/>
+            </a>
+            <div class="Menu">
+                <div class="WText"><%= user.username %>
+                </div>
+                <a href="/shop/">Home</a>
+                <a href="/shop/mycart/<%= user._id %>">Carrito</a>
+                <a href="/shop/profile">Mi perfil</a>
+                <a href="/shop/logout"  class="logout"><button class="logoutButton">Cerrar sesión</button></a>
+            </div>
+        </div>
+
+    <% } %>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

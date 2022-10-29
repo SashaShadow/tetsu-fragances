@@ -1,0 +1,79 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <% user = JSON.parse(user) %>
+    <%- include("../partials/head.ejs"); %>
+    <%- include("../partials/css.ejs"); %>
+</head>
+<body>
+    <div class="CartsContainer">
+        <% if (carts) { %>       
+                    <div class="Cart">
+                        <div class="CartInfo">
+                            <h2>Carrito</h2>
+                            <% let total = 0 %>
+                            <% for (let i = 0; i < carts.products.length; i++) { %>
+                                <% total += carts.products[i].quantity * carts.products[i].price %>
+                            <% } %>
+                            <% if (carts.products.length) { %>
+                                <p>Total a pagar: <%= total %></p>
+                                <p class="NewOrder" onclick="newOrder(`<%= JSON.stringify(carts) %>`, `<%= JSON.stringify(user) %>`, `<%= total %>`)">Confirmar orden de compra</p>
+                            <% } else { %>
+                                <p>Agregá productos a tu carrito</p> 
+                            <% } %>
+                        </div>
+                        <div class="Products">
+                            <% for (let i = 0; i < carts.products.length; i++) { %>
+                                <div class="Product">
+                                    <p><%= carts.products[i].name %></p>
+                                    <img src="<%= carts.products[i].photo %>"/>
+                                    <p>Cantidad: <%= carts.products[i].quantity %></p>
+                                    <p>Total: <%= carts.products[i].quantity * carts.products[i].price %></p>
+                                    <p class="DeleteProd" onclick="deleteProd(`<%= user._id %>`, `<%= carts.products[i]._id%>` )">Eliminar producto del carrito</p>
+                                </div>
+                            <% } %>
+                        </div>
+                    </div> 
+        <% } else { %>
+            <h1>No tenés ningun carrito. Agregá productos para crear uno.</h1>
+        <% } %>
+    </div>
+
+    <script>
+
+        const deleteProd = (userId, prodId) => {
+            
+            return fetch(`/api/cart/${userId}/products/${prodId}`, {
+                method: 'DELETE',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({deleteprod: "bye"}),
+            })
+            .then(_ => {
+                window.location.replace(`/shop/mycart/${userId}`)
+            })
+        }
+
+        const newOrder = (cart, user, total) => {
+
+            cart = JSON.parse(cart)
+            const cartProds = cart.products;
+            user = JSON.parse(user);
+            return fetch(`/api/orders`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({"client": {"username": user.username, "email": user.email, 
+                "name": user.name, "phone": user.phone, "address": user.address}, 
+                "order": {"products": JSON.stringify(cartProds), "total": total, "orderNo": cart._id}, "owner": user._id}),
+            })
+            .then(_ => {
+                window.location.replace(`/shop/mycart/${user._id}`)
+            })
+        }
+
+    </script>
+</body>
+</html>

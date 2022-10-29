@@ -1,0 +1,34 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mis órdenes</title>
+        <% user = JSON.parse(user) %>
+        <%- include("../partials/head.ejs"); %>
+        <%- include("../partials/css.ejs"); %>
+    </head>
+    <body>
+        <div class="OrdersContainer">
+            <% if (orders) { %> 
+                <h1>Mis ordenes de compra</h1>
+                <a href="/shop/profile"><h4>Regresar a mi perfil</h4></a>
+                <% for (let i = 0; i < orders.length; i++) { %>      
+                    <div class="Order">
+                        <div>
+                            <h4>Orden número: <%= orders[i].order.orderNo %></h4>
+                            <h4>Total a pagar: <%= orders[i].order.total %></h4>
+                        </div>
+                        <ul>
+                        <% for (let j = 0; j < orders[i].order.products.length; j++) { %>
+                            <li><%= orders[i].order.products[j].name %> x <%= orders[i].order.products[j].quantity %></li>
+                        <% } %>
+                        </ul>
+                    </div>
+                <% } %>
+            <% } else { %>
+                <h1>No realizaste ninguna orden de compra.</h1>
+            <% } %>
+        </div>
+    

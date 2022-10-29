@@ -1,0 +1,39 @@
+
+<script>
+
+    const signupForm = document.querySelector('.signupForm');
+
+    const getIp = (callback) => {
+    fetch('https://ipinfo.io/json?token=23b1af9d18e1db', { headers: { 'Accept': 'application/json' }})
+      .then((resp) => resp.json())
+      .catch(() => {
+        return {
+          country: 'us',
+        };
+      })
+      .then((resp) => callback(resp.country));
+    }
+
+    let input = document.querySelector("#phone");
+    let output = document.querySelector("#phoneOut");
+
+    let iti = window.intlTelInput(input, {
+      geoIpLookup: getIp,
+      initialCountry: "auto",
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      nationalMode: true,
+    });
+
+    const handleChange = () => {
+      let text = (iti.isValidNumber()) ? "OK: " + iti.getNumber() : "Ingresa un número de teléfono válido";
+      let textNode = document.createTextNode(text);
+      iti.isValidNumber() ? input.value = iti.getNumber() : null;
+      output.innerHTML = "";
+      output.appendChild(textNode);
+    };
+
+    input.addEventListener('change', handleChange);
+    input.addEventListener('keyup', handleChange);
+    
+</script>

@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajes con el sistema</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <%- include("../partials/css.ejs"); %>
+    <%- include("../partials/head.ejs"); %>
+
+</head>
+<body>
+
+    <%  if (user.admin) { %>
+        <h1 class="MsgsToTitle">Mensajes con los usuarios</h1>
+    <% } else { %>
+        <h1 class="MsgsToTitle">Mensajes con el sistema</h1>
+    <% } %>
+    <div class="MsgsToContainer">
+        <div class="MsgsTo">
+            <% for (let i = 0; i < users.length; i++) { %>
+                <div class="UserCard" onclick="getConversation(`<%= JSON.stringify(msgs) %>`, `<%= JSON.stringify(user.username) %>`, `<%= JSON.stringify(users[i].username) %>`)">
+                    <h2 class="UserCardName" id="<%= users[i].username %>">Mensajes con <span class="User"><%= users[i].username %></span></h2>
+                </div>
+            <% } %>
+        </div>
+        <h4 class="myUser"><%= user.username %></h4>
+        <div class="MsgsToView">
+            <div class="Msgs">
+            </div>
+        </div>
+    </div>
+
+    <script src="/shop/ejs.js"></script>
+    <script type="text/javascript" src="/shop/msgto.js" defer></script>
+    <script>
+        const getConversation = (msgs, user1, user2) => {
+
+            user1 = user1.replaceAll('"', '');
+            user2 = user2.replaceAll('"', '');
+
+            msgs = JSON.parse(msgs);
+            let messages = [];
+            const msgsPlace = $(".Msgs");
+            const UserCardName = $(`#${user2}`);
+            const UserCard = $(".UserCard")
+            let counter = 0;
+
+            const formHtml = `
+            <form enctype="application/json" class="MsgToForm">
+                <div class="form-group">
+                    <h4 class="myUser"><%= user.username %></h4>
+                </div>
+                <div class="form-group msgInput">
+                    <textarea type="text" id="textToAdm" name="text" placeholder="Envia un mensaje" required></textarea>
+                    <button type="submit" id="msgToAdmButton" class="btn btn-primary msgToAdmButton">Enviar</button>
+                </div>
+            </form>
+            `
+
+            $(".UserCardName").removeClass("blue");
+            UserCardName.addClass("blue");
+            
+            for (let i = 0; i < msgs.length; i++) {
+                if (msgs[i].author === user1.replaceAll('"', '') && msgs[i].to === user2.replaceAll('"', '') 
+                || msgs[i].author === user2.replaceAll('"', '') && msgs[i].to === user1.replaceAll('"', '')) {
+                    messages.push(msgs[i]);
+                }
+            }
+
+            let messagesString = messages.length ? messages.map(msg => {
+                return `
+                <h4>${msg.time} ${msg.author}: ${msg.text}</h4>
+                `
+            }).join('') : "<h4>No hay mensajes con este usuario</h4>"
+            
+            msgsPlace.html(`<h3 class="SelectedUser">${user2}</h3>` + messagesString);
+            $(formHtml).appendTo($(".MsgsToView"))
+        }
+    </script>
+</body>
+</html>

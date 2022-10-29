@@ -1,0 +1,1639 @@
+[2022-09-07T20:31:20.745] [ERROR] errorOnly - TypeError: this.repository.getElems is not a function
+    at MessageService.getMsgs (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/services/messageService.js:8:32)
+    at getMessages (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/controllers/messagesController.js:10:27)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:175:3)
+[2022-09-07T20:36:24.788] [ERROR] errorOnly - TypeError: this.repository.getElems is not a function
+    at MessageService.getMsgs (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/services/messageService.js:8:32)
+    at getMessages (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/controllers/messagesController.js:10:27)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:175:3)
+[2022-09-09T20:48:07.815] [ERROR] errorOnly - TypeError: Cannot read properties of null (reading 'getElems')
+    at ProductRepository.getProducts (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/repository/productRepository.js:13:42)
+    at ProductsService.getProducts (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/services/productsService.js:27:32)
+    at getProducts (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2040/Entregable/controllers/productsController.js:9:27)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 40/Entregable/node_modules/express/lib/router/index.js:280:10)
+[2022-09-13T15:44:21.139] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:44:22.032] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://juleriaque.vteximg.com.br/arquivos/ids/175992-1000-1000/flower-by-kenzo-edt-B72A83F83F286435D7C64D74BE625951.jpg?v=637638882214130000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:20.704] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:22.809] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11)
+        at runNextTicks (node:internal/process/task_queues:65:3)
+        at processImmediate (node:internal/timers:437:9) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:23.007] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:23.207] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:23.721] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11)
+        at runNextTicks (node:internal/process/task_queues:65:3)
+        at processImmediate (node:internal/timers:437:9) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:23.922] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:24.240] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:24.437] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11)
+        at runNextTicks (node:internal/process/task_queues:65:3)
+        at processImmediate (node:internal/timers:437:9) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:47:24.641] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:49:26.987] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:49:48.109] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock", products.0.quantity: Path `quantity` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    },
+    'products.0.quantity': ValidatorError: Path `quantity` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaNumber.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'quantity',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:52:59.187] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:53:48.521] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T15:55:20.517] [ERROR] errorOnly - Error: Carts validation failed: products.0.stock: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    'products.0.stock': CastError: Cast to Number failed for value "https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000" (type string) at path "stock"
+        at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:378:11)
+        at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+        at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+        at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+        at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+        at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+        at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+        at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17)
+        at Proxy._mapCast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/array/methods/index.js:257:17) {
+      stringValue: '"https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000"',
+      messageFormat: undefined,
+      kind: 'Number',
+      value: 'https://dior.vtexassets.com/arquivos/ids/1014360/Name_155.jpg?v=637986178505870000',
+      path: 'stock',
+      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+      
+        assert.ok(!isNaN(val))
+      
+          at castNumber (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/number.js:27:10)
+          at SchemaNumber.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/number.js:376:12)
+          at SchemaNumber.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1443:22)
+          at EmbeddedDocument.$set (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:1168:16)
+          at EmbeddedDocument.Document (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/document.js:161:12)
+          at EmbeddedDocument.Subdocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/subdocument.js:31:12)
+          at EmbeddedDocument.ArraySubdocument [as constructor] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/ArraySubdocument.js:34:15)
+          at new EmbeddedDocument (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/documentarray.js:127:17)
+          at Proxy._cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/types/DocumentArray/methods/index.js:92:17) {
+        generatedMessage: true,
+        code: 'ERR_ASSERTION',
+        actual: false,
+        expected: true,
+        operator: '=='
+      },
+      valueType: 'string'
+    }
+  },
+  _message: 'Carts validation failed'
+}
+[2022-09-13T16:08:15.624] [ERROR] errorOnly - TypeError: Cannot read properties of null (reading 'getCart')
+    at CartService.getOwnCart (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/services/cartService.js:16:32)
+    at cart (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/controllers/mvcController.js:28:26)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/layer.js:95:5)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/index.js:284:15
+    at param (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/express/lib/router/index.js:421:3)
+[2022-09-20T08:24:44.419] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "asd" (type string) at path "_id" for model "Products"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"asd"',
+  kind: 'ObjectId',
+  value: 'asd',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-09-20T08:25:15.492] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:28:33.418] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:29:42.923] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:30:39.112] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:32:04.121] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:45:03.670] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:45:14.018] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "asdasd" (type string) at path "_id" for model "Products"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"asdasd"',
+  kind: 'ObjectId',
+  value: 'asdasd',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-09-20T08:45:34.696] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-20T08:59:43.558] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-09-20T09:01:09.846] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 42/Entregable/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-11T19:03:39.393] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-11T19:08:29.086] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-11T19:08:37.827] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/repository/productRepository.js:19:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-11T19:25:46.685] [ERROR] errorOnly - TypeError: this.model.findAll is not a function
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/daos/orderDAOMongoDB.js:11:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-11T19:25:49.165] [ERROR] errorOnly - TypeError: this.model.findAll is not a function
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2042/Entregable/daos/orderDAOMongoDB.js:11:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-15T17:24:05.713] [ERROR] errorOnly - RestException [Error]: Authenticate
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-15T17:27:36.073] [ERROR] errorOnly - RestException [Error]: Authenticate
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-15T17:28:31.266] [ERROR] errorOnly - RestException [Error]: Authenticate
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-16T18:03:41.092] [ERROR] errorOnly - ReferenceError: phoneError is not defined
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/auth/jwtAuth.js:50:20
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-10-16T18:06:37.251] [ERROR] errorOnly - ReferenceError: phoneError is not defined
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/auth/jwtAuth.js:50:20
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-10-16T18:07:47.884] [ERROR] errorOnly - ReferenceError: phoneError is not defined
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/auth/jwtAuth.js:50:20
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-10-17T14:39:46.656] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "woman" (type string) at path "_id" for model "Products"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"woman"',
+  kind: 'ObjectId',
+  value: 'woman',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T14:40:02.447] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "woman" (type string) at path "_id" for model "Products"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"woman"',
+  kind: 'ObjectId',
+  value: 'woman',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T14:40:53.190] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "woman" (type string) at path "_id" for model "Products"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"woman"',
+  kind: 'ObjectId',
+  value: 'woman',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T14:41:00.166] [ERROR] errorOnly - ReferenceError: products is not defined
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/controllers/productsController.js:35:38
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-17T14:45:26.611] [ERROR] errorOnly - Error
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/controllers/productsController.js:38:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-17T14:45:40.334] [ERROR] errorOnly - Error
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/controllers/productsController.js:38:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-17T21:27:18.094] [ERROR] errorOnly - Error: ProductsTest validation failed: category: Path `category` is required.
+    at ValidationError.inspect (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/log4js/lib/layouts.js:65:52)
+    at app (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/log4js/lib/appenders/file.js:98:23)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/log4js/lib/log4js.js:42:21) {
+  errors: {
+    category: ValidatorError: Path `category` is required.
+        at validate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1329:13)
+        at SchemaString.SchemaType.doValidate (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1313:7)
+        at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/document.js:2794:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'category',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'ProductsTest validation failed'
+}
+[2022-10-17T21:27:19.199] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T21:30:52.598] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T21:31:45.542] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T22:47:44.143] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-17T22:51:42.168] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-18T18:40:58.974] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+    at model.Query.exec (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4780:21)
+    at model.Query.Query.then (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"6320cdfnoexia86897262ac8"',
+  kind: 'ObjectId',
+  value: '6320cdfnoexia86897262ac8',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/error.js:41:28)
+      at new ObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/bson/lib/objectid.js:67:23)
+      at castObjectId (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/schematype.js:1589:20)
+      at cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/cast.js:344:32)
+      at model.Query.Query.cast (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/mongoose/lib/query.js:5202:12),
+  valueType: 'string'
+}
+[2022-10-18T20:06:55.227] [ERROR] errorOnly - TypeError: Cannot read properties of null (reading 'getCart')
+    at CartService.getOwnCart (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/services/cartService.js:16:32)
+    at cart (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/controllers/mvcController.js:37:26)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:284:15
+    at param (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:421:3)
+[2022-10-18T20:06:55.841] [ERROR] errorOnly - TypeError: Cannot read properties of null (reading 'getCart')
+    at CartService.getOwnCart (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/services/cartService.js:16:32)
+    at cart (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/controllers/mvcController.js:37:26)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/layer.js:95:5)
+    at /home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:284:15
+    at param (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/express/lib/router/index.js:421:3)
+[2022-10-18T21:10:31.776] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+    at new ProductDTO (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/dtos/productDTO.js:3:29)
+    at ProductRepository.getProduct (file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/repository/productRepository.js:18:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-21T19:55:40.372] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:06:59.355] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:20:09.934] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:22:10.256] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:27:49.610] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:29:32.616] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:33:42.074] [ERROR] errorOnly - RestException [Error]: The requested resource /PhoneNumbers/undefined was not found
+    at success (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/twilio/lib/base/Version.js:63:15)
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-10-21T20:45:32.051] [ERROR] errorOnly - TypeError: Cannot read properties of undefined (reading 'name')
+[2022-10-21T20:45:52.334] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "asdas" (type string) at path "_id" for model "Products"
+[2022-10-22T00:00:54.572] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+[2022-10-22T00:03:57.944] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+[2022-10-22T13:46:42.080] [ERROR] errorOnly - Error en servidor Error: listen EADDRINUSE: address already in use :::8080
+[2022-10-22T15:17:17.883] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+[2022-10-22T15:18:00.174] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+[2022-10-22T15:18:50.350] [ERROR] errorOnly - CastError: Cast to ObjectId failed for value "6320cdfnoexia86897262ac8" (type string) at path "_id" for model "ProductsTest"
+[2022-10-23T12:07:07.310] [ERROR] errorOnly - TypeError: this.repository.getOwnMsgs is not a function
+[2022-10-23T16:37:17.228] [ERROR] errorOnly - ReferenceError: phoneError is not defined
+    at file:///home/sashashadow/Escritorio/Coding/backend-coder/Clase%2048/Proyecto%20Final/auth/jwtAuth.js:64:20
+    at Promise_then_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/asap.js:40:19)
+    at flush (/home/sashashadow/Escritorio/Coding/backend-coder/Clase 48/Proyecto Final/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-10-24T21:33:47.886] [ERROR] errorOnly - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+[2022-10-25T08:24:26.034] [ERROR] errorOnly - ValidationError: author: Path `author` is required.
+[2022-10-26T16:15:44.532] [ERROR] errorOnly - ValidationError: to: Path `to` is required.
+[2022-10-26T16:17:07.120] [ERROR] errorOnly - ValidationError: to: Path `to` is required.
+[2022-10-26T17:17:17.411] [ERROR] errorOnly - ValidationError: author: Path `author` is required.

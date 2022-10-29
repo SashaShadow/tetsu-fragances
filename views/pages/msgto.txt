@@ -1,0 +1,15 @@
+Lo que se necesita para establecer esta vista de mensajeria:
+
+-Si el usuario es común:
+    -Validar la sesión y que el usuario no sea admin. LISTO
+    -Si es asi la vista desplegará por un lado un lateral (grid) donde irán los mensajes recibidos. Podrá figura el nombre de la otra parte.
+    -En el mismo pueden estar simplificados y que se les pueda hacer click para que aparezcan en grande en el otro lado del grid.
+    -Una vez desplegado el mensaje (de existir) se puede tambien dar un input para responder a dicho usuario que envió el mensaje.
+    -Si no existe ningún mensaje disponer dicho input además de un select donde se encontrará un listado de los admin. Esta vista existirá
+    aunque haya mensajes.
+    -Pensar en establecer un "historial de conversación" que se encuentre en el mismo lateral de mensajes recibidos. Es decir, no repetir laterales.
+    -De esta forma al abrir la vista lateral se podrá abrir en grande los mensajes enviados y recibidos por el admin.
+    -Para esto último habrá que validar ambos campos, tanto el to como author. Si el mensaje es propio deberá author deberá ser el username y to el admin.
+    -Si el mensaje es del admin, to deberá ser el username y author el username del admin.
+
+-Si el usuario es admin: lo opuesto a lo del usuario común sin rol de admin.

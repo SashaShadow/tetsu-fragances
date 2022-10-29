@@ -1,0 +1,627 @@
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+        .chatForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chatUser, .myUser {
+            display: none;
+        }
+
+        .Subcontainer {
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7rem;
+        }
+
+
+        .myForm {
+            display: grid;
+            width: 75vw;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            background-color: blueviolet;
+        }
+        
+        .myForm input {
+            width: 15rem;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            display: grid;
+            grid-auto-flow: row;
+            font-family: 'Abel', sans-serif;       
+            font-size: larger; 
+        }
+
+        .Welcome {
+            width: 100vw;
+            height: 6rem;
+            grid-area: arriba;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            background-color: rgb(0, 0, 0);
+            justify-content: space-around;
+            align-items: center;
+            z-index: 5;
+        }
+
+        .Banner {
+            justify-self: center;
+            align-self: center;
+            margin-top: 1rem;
+        }
+
+        .Welcome p {
+            color: rgb(232, 225, 239);
+        }
+
+        .WText {
+            color: rgb(232, 225, 239);
+            justify-content: center;
+            align-self: center;
+        }
+
+        .Menu {
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 1rem;
+        }
+
+        .Menu a {
+            text-decoration: none;
+            color: rgb(232, 225, 239);
+            justify-content: center;
+            align-self: center;
+        }
+
+        .Menu a:hover {
+            color:rgb(123, 251, 238);
+        }
+
+        .BText {
+            color: rgb(232, 225, 239);
+            text-align: center;
+        }
+
+        .WText:hover {
+            color:aqua;
+        }
+
+        .logout {
+            margin-left: auto;
+        }
+
+        .logoutButton {
+            color: rgb(212, 184, 184);
+            background-color: black;
+            border-style: dotted;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .logoutButton:hover {
+            color: red;
+        }
+
+        .ChatGroup {
+            display: grid;
+            margin-top: 2rem;
+            margin-right: 9rem;
+            margin-left: 9rem;
+            background-color: rgba(116, 19, 162, 0.4);
+        }
+
+        .Chat {
+            background-color: rgba(231, 165, 165, 0.050);
+            border-style: solid;
+            border-color: #1a3746;
+            display: grid;
+            width: 50%;
+            margin: 0 auto 2rem;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        .ChatMsgs {
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 50%;
+            height: 35rem;
+            padding: 1rem 2rem;
+            background-color: rgb(251, 255, 254);
+            border-style: solid;
+            border-color: #31708f;
+            overflow-y: scroll;
+        }
+
+        .msgInput {
+            width: 100%
+        }
+
+        .chatButton {
+            width: 5rem !important;
+        }
+
+        .Profile {
+            justify-self: center;
+            align-self: center;
+            margin-top: 7rem;
+            width: 85vw;
+        }
+
+        .ProfileInfo {
+            background-color: azure;
+            border-style: solid;
+            border-color:cadetblue;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content:baseline;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .ProfileInfo a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .ProfileInfo a:hover {
+            color: rgb(214, 197, 123);
+        }
+
+        .profilePhoto {
+            max-width: 7rem;
+            max-height: 100%;
+        }
+
+        .Linea {
+            color: black;
+            width: 100%;
+            background: black;
+        }
+
+        .Subcontai2ner img {
+            width: 7rem;
+            height: 9rem;
+        }
+
+        .Info {
+            color:aquamarine;
+        }
+
+        h2 {
+            color:rgb(137, 49, 134);
+            text-align: center;
+        }
+
+        h3 {
+            color:rgb(190, 132, 188);
+        }
+
+        .chatForm h4 {
+            color:aquamarine;
+        }
+
+        .ProdContainer {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 2rem;
+            margin: 0 9rem 1rem 9rem;
+        }
+
+        .ProdsNotFound {
+            text-align: center;
+            justify-self: center;
+            grid-column: 2 / 4;
+        }
+
+        .Categories {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;
+            align-items: center;
+            background-color: rgb(14, 20, 26);
+            margin: 7rem 9rem 2rem 9rem;
+        }
+
+        .Categories a {
+            text-decoration: none;
+            color:azure;
+        }
+
+        .ProdCard {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 0.5rem;
+            box-shadow: 0px 1px 7px 1px rgb(130, 83, 177);
+        }
+
+        .ProdCard img {
+            width: 15rem;
+            height: 15rem;
+        }
+
+        .ProdCard:hover {
+            transform: scale(1.03);
+        }
+
+        .Select {
+            position: relative;
+        }
+
+         .Categories a:hover {
+            color:aqua
+        }
+
+        /* Validacion telefonos css ................................*/
+
+        .container2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background-color: #285E8E;
+        }
+
+        #phone, .btn {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
+
+        .btn {
+        color: #ffffff;
+        background-color: #428BCA;
+        border-color: #357EBD;
+        font-size: 14px;
+        outline: none;
+        cursor: pointer;
+        padding-left: 12px;
+        padding-right: 12px;
+        }
+
+        .btn:focus, .btn:hover {
+        background-color: #3276B1;
+        border-color: #285E8E;
+        }
+
+        .btn:active {
+        box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+        }
+
+        .alert {
+        padding: 15px;
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        }
+
+        .alert-info {
+        border-color: #bce8f1;
+        color: #31708f;
+        background-color: #d9edf7;
+        }
+
+        .alert-error {
+        color: #a94442;
+        background-color: #f2dede;
+        border-color: #ebccd1;
+        }
+
+        /* Product Cards ...............................................*/
+
+        .ProdVal {
+            display: inline;
+            text-align: center;
+        }
+
+        /* Carts Styles ............................................... */
+
+        .NewCart {
+            color:#428BCA;
+            text-decoration: none;
+            cursor: pointer;
+            width: fit-content;
+        }
+
+        .NewCart:hover {
+            color:#ffffff;
+        }
+
+        .CartsContainer {
+            display: grid;
+            grid-template-rows: auto;
+            grid-auto-flow: row;
+            justify-self: center;
+            align-self: center;
+            margin-top: 7rem;
+            width: 85vw;
+            height:fit-content;
+            background-color:rgba(210, 156, 240, 0.561);
+            grid-gap: 1rem;
+        }
+
+        .Cart {
+            display: grid;
+            grid-template-columns: 0.2fr 1fr;
+            min-height: 20rem;
+            max-height: fit-content;
+            border-style: solid;
+            border-color: white;
+            margin: 1rem 1rem 1rem 1rem;
+        }
+
+        .DeleteProd {
+            cursor: pointer;
+            color:tomato;
+        }
+
+        .DeleteProd:hover {
+            color:red;
+        }
+
+        .CartInfo {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1rem;
+            border-style: dotted;
+            border-color: #31708f;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Product img {
+            width: 10rem;
+            height: 10rem;
+        }
+
+        .AddCont {
+            display: flex;
+        }
+        
+        .AddToCart {
+            cursor: pointer;
+        }
+
+        .AddToCart:hover {
+            color:violet;
+        }
+
+        .NewOrder {
+            cursor: pointer;
+            color:rgb(81, 44, 133);
+        }
+
+        .NewOrder:hover {
+            color:#ffffff;
+        }
+
+        /* Orders Styles ............................................... */
+
+        .OrdersContainer {
+            display: grid;
+            color: black;
+            grid-template-rows: auto;
+            grid-auto-flow: row;
+            grid-gap: 2rem;
+            justify-self: center;
+            align-self: center;
+            margin-top: 7rem;
+            margin-bottom: 2rem;
+            width: 85vw;
+            height:fit-content;
+            background-color:rgba(255, 255, 255, 0.561);
+        }
+
+        .OrdersContainer a {
+            text-decoration: none;
+            width: max-content;
+            color: rgb(193, 115, 222);
+        }
+
+        .OrdersContainer a:hover {
+            color:bisque;
+        }
+
+        .Order {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-style: solid;
+            padding: 1rem;
+            border-width: 0.001rem;
+            border-color: #ccc;
+            box-shadow: 0px 1px 6px 1px rgb(186, 161, 212);
+        }
+
+        /* Own messages Styles ............................................... */
+
+        .MessagesContainer {
+            display: grid;
+            color: black;
+            grid-template-rows: auto;
+            grid-auto-flow: row;
+            grid-gap: 1rem;
+            justify-self: center;
+            align-self: center;
+            margin-top: 7rem;
+            margin-bottom: 2rem;
+            width: 85vw;
+            height: 85vh;
+            overflow-y: scroll;
+            background-color:rgba(255, 255, 255, 0.561);
+        }
+
+        .MessagesContainer a {
+            text-decoration: none;
+            width: max-content;
+            color: rgb(193, 115, 222);
+        }
+
+        .MessagesContainer a:hover {
+            color:bisque;
+        }
+
+        .Message {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-style: solid;
+            padding: 0.5rem;
+            margin: 0 2rem 1rem 2rem;
+            border-width: 0.001rem;
+            border-color: #ccc;
+            box-shadow: 0px 1px 6px 1px rgb(186, 161, 212);
+        }
+
+        .Time {
+            color: red;
+        }
+
+        .Text {
+            color: green;
+        }
+
+        /*............ Mensajes al admin ................ */
+
+        .MsgsToContainer {
+            display: grid;
+            grid-template-columns: 0.3fr 1fr;
+            grid-template-areas: "iz de";
+            width: 85vw;
+            height: 70vh;
+            margin: 1rem auto 2rem;
+            background-color: rgba(216, 169, 216, 0.381);
+            padding: 1rem 1rem 1rem 1rem;
+        }
+
+        .MsgsTo {
+            display: grid;
+            grid-auto-flow: row;
+            grid-area: iz;
+            overflow-y: scroll;
+            padding: 1rem 2rem 1rem 1rem;
+            margin: 0 0 1rem 0;
+            cursor: pointer;
+        }
+
+        .MsgsToView {
+            display: grid;
+            overflow-y: scroll;
+            grid-template-rows: 1fr 0.2fr;
+            grid-template-areas: "arr" "aba";
+        }
+
+        .MsgToForm {
+            grid-area: aba;
+            padding-left: 1rem;
+        }
+
+        .MsgsToTitle {
+            margin: 7rem 0 0 10rem;
+        }
+
+        .Msgs {
+            overflow-y: scroll;
+            background-color: #fdfdfdc0;
+            margin: 1rem 1rem 0 1.8rem;    
+        }
+
+        .msgInput {
+            display: flex;
+            flex-direction: row;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .UserCard {
+            border-style: solid;
+            border-color: #3276b188;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .adminButton {
+            box-shadow:inset 0px 1px 0px 0px #e184f3;
+            background:linear-gradient(to bottom, #c123de 5%, #e285f5 100%);
+            background-color:#c123de;
+            border-radius:6px;
+            border:1px solid #a511c0;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #9b14b3;
+            width: max-content;
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+        }
+        .adminButton:hover {
+            background:linear-gradient(to bottom, #e285f5 5%, #c123de 100%);
+            background-color:#e285f5;
+            text-decoration: none;
+        }
+
+        .InfoFooter {
+            background: rgb(0, 0, 0);
+            position: static;
+            width: 100vw;
+            height: 5rem;
+            margin: 2rem 0 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .InfoFooter h4, a {
+            padding: 1rem;
+            color:rgb(82, 47, 82);
+        }
+
+        .InfoFooter h4:hover, a:hover {
+            color:white;
+        }
+
+        .InfoFooter a {
+            text-decoration: none;
+        }
+       
+
+    </style>
