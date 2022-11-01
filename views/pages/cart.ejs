@@ -70,7 +70,7 @@
                 "order": {"products": JSON.stringify(cartProds), "total": total, "orderNo": cart._id}, "owner": user._id}),
             })
             .then(_ => {
-                window.location.replace(`/shop/mycart/${user._id}`)
+                window.location.replace(`/shop/orders`)
             })
         }
 
